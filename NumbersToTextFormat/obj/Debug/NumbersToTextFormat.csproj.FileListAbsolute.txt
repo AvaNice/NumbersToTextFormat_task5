@@ -1,0 +1,6 @@
+C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\bin\Debug\NumbersToTextFormat.exe.config
+C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\bin\Debug\NumbersToTextFormat.exe
+C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\bin\Debug\NumbersToTextFormat.pdb
+C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\obj\Debug\NumbersToTextFormat.csprojAssemblyReference.cache
+C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\obj\Debug\NumbersToTextFormat.exe
+C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\obj\Debug\NumbersToTextFormat.pdb
