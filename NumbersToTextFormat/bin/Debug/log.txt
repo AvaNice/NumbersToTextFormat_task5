@@ -8,3 +8,4 @@
 2019-12-10 21:43:09.850 +02:00 [INF] UI default. User input f
 2019-12-10 21:43:12.589 +02:00 [INF] UI default. User input yes
 2019-12-10 21:56:44.650 +02:00 [INF] UI default. User input 190
+2019-12-11 00:15:59.806 +02:00 [ERR] Входная строка имела неверный формат. User input 

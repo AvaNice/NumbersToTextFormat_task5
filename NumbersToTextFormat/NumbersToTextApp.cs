@@ -7,8 +7,7 @@
 
         public NumbersToTextApp(INumbersTextLibrarian librarian)
         {
-        _translator = new DigitTranslator(librarian);
-
+             _translator = new DigitTranslator(librarian);
         }
         public string Translate(int number)
         {
