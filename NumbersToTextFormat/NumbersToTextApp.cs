@@ -1,41 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NumbersToTextFormat
 {
 
     class NumbersToTextApp
     {
-        private readonly DigitTranslator _app = new DigitTranslator(new NumbersTextLibrarian());
-        private readonly NumbersToTextUI UI = new NumbersToTextUI();
+        private readonly DigitTranslator _translator;
 
-        public void Start()
+        public NumbersToTextApp(INumbersTextLibrarian librarian)
         {
-            try
-            {
-                int input = Convert.ToInt32(UI.GetUserNumber());
+        _translator = new DigitTranslator(librarian);
 
-                string result = _app.Translate(input);
+        }
+        public string Translate(int number)
+        {
+            string result;
 
-                UI.Show(result);
-            }
+            result = _translator.Translate(number);
 
-            catch(FormatException ex)
-            {
-                //TODO LOG
-                UI.Show(TextMessages.INCORRECT_INPUT);
-            }
-
-            catch(OverflowException ex)
-            {
-                UI.Show(TextMessages.TO_BIG_NUMBER);
-                //TODO LOG
-            }
-
-            Start();
+            return result;
         }
     }
 }

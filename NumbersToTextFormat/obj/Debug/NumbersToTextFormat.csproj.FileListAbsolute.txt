@@ -4,3 +4,9 @@ C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\bin\Debug\Num
 C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\obj\Debug\NumbersToTextFormat.csprojAssemblyReference.cache
 C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\obj\Debug\NumbersToTextFormat.exe
 C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\obj\Debug\NumbersToTextFormat.pdb
+C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\bin\Debug\Serilog.dll
+C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\bin\Debug\Serilog.Sinks.File.dll
+C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\bin\Debug\Serilog.xml
+C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\bin\Debug\Serilog.Sinks.File.pdb
+C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\bin\Debug\Serilog.Sinks.File.xml
+C:\C# .Net\ElementaryTasks\NumbersToTextFormat\NumbersToTextFormat\obj\Debug\NumbersToTextFormat.csproj.CopyComplete
