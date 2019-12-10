@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace NumbersToTextFormat
+﻿namespace NumbersToTextFormat
 {
 
     class NumbersToTextApp

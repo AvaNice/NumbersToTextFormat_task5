@@ -7,7 +7,6 @@ namespace NumbersToTextFormat
     {
         static void Main(string[] args = null)
         {
-            
             NumbersTextLibrarian librarian;
             NumbersToTextApp app;
             NumbersToTextUI userInterface;
