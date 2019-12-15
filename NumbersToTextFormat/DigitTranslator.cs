@@ -20,7 +20,7 @@ namespace NumbersToTextFormat
         private const int COUNT_SINGLE_WORD = 19;
         #endregion
 
-        private INumbersTextLibrarian _lib;
+        private readonly INumbersTextLibrarian _lib;
 
         private bool _isZeroHighRank = false;
 

@@ -8,7 +8,7 @@ namespace NumbersToTextFormat
         public string Spliter { get; } = " ";
         public string Zero { get; } = "ноль";
 
-        public Dictionary<int, string> Tens { get; }
+        public IDictionary<int, string> Tens { get; }
             = new Dictionary<int, string>
             {
                 { 2, "двадцать" },
@@ -21,7 +21,7 @@ namespace NumbersToTextFormat
                 { 9, "девяносто" },
             };
 
-        public Dictionary<int, string> HigherRanks { get; }
+        public IDictionary<int, string> HigherRanks { get; }
             = new Dictionary<int, string>
             {
                 { 1, "тысяч" },
@@ -29,7 +29,7 @@ namespace NumbersToTextFormat
                 { 3, "миллиард" },
             };
 
-        public Dictionary<int, string> Hundreds { get; }
+        public IDictionary<int, string> Hundreds { get; }
            = new Dictionary<int, string>
            {
                 {0, "" },
@@ -44,7 +44,7 @@ namespace NumbersToTextFormat
                 { 9, "девятьсот" },
            };
 
-        public Dictionary<int, string> MaleSingleWord { get; }
+        public IDictionary<int, string> MaleSingleWord { get; }
             = new Dictionary<int, string>
             {
                 {0, "" },
@@ -69,7 +69,7 @@ namespace NumbersToTextFormat
                 { 19, "десятнадцать" },
             };
 
-        public Dictionary<int, string> ThousandEnds { get; }
+        public IDictionary<int, string> ThousandEnds { get; }
             = new Dictionary<int, string>
             {
                 { 0, "" },
@@ -94,7 +94,7 @@ namespace NumbersToTextFormat
                 { 19, "" },
             };
 
-        public Dictionary<int, string> MillionEnds { get; }
+        public IDictionary<int, string> MillionEnds { get; }
             = new Dictionary<int, string>
             {
                 { 0, "ов" },
@@ -120,9 +120,7 @@ namespace NumbersToTextFormat
 
             };
 
-
-
-        public Dictionary<int, string> FemaleSingleWord { get; }
+        public IDictionary<int, string> FemaleSingleWord { get; }
             = new Dictionary<int, string>
             {
                 {0, "" },

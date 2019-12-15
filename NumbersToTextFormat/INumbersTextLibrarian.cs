@@ -10,18 +10,18 @@ namespace NumbersToTextFormat
 
         string Spliter { get; }
 
-        Dictionary<int, string> FemaleSingleWord { get; }
+        IDictionary<int, string> FemaleSingleWord { get; }
 
-        Dictionary<int, string> HigherRanks { get; }
+        IDictionary<int, string> HigherRanks { get; }
 
-        Dictionary<int, string> Hundreds { get; }
+        IDictionary<int, string> Hundreds { get; }
 
-        Dictionary<int, string> MaleSingleWord { get; }
+        IDictionary<int, string> MaleSingleWord { get; }
 
-        Dictionary<int, string> MillionEnds { get; }
+        IDictionary<int, string> MillionEnds { get; }
 
-        Dictionary<int, string> Tens { get; }
+        IDictionary<int, string> Tens { get; }
 
-        Dictionary<int, string> ThousandEnds { get; }
+        IDictionary<int, string> ThousandEnds { get; }
     }
 }

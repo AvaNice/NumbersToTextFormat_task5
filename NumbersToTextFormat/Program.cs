@@ -15,7 +15,7 @@ namespace NumbersToTextFormat
             app = new NumbersToTextApp(librarian);
             userInterface = new NumbersToTextUI();
 
-            CreateLog();
+            ConfigLogger();
 
             Start(userInterface, app);
         }
@@ -51,7 +51,7 @@ namespace NumbersToTextFormat
             }
         }
 
-        private static void CreateLog()
+        private static void ConfigLogger()
         {
             Log.Logger = new LoggerConfiguration().MinimumLevel.Debug()
                .WriteTo.File("log.txt").CreateLogger();
