@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersToTextFormat", "NumbersToTextFormat\NumbersToTextFormat.csproj", "{D71A61F7-AA04-4B59-92A1-B0D9B87AC476}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersToTextFormat", "NumbersToText\NumbersToTextFormat\NumbersToTextFormat.csproj", "{D71A61F7-AA04-4B59-92A1-B0D9B87AC476}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersToTextTests", "..\NimbersToTextTests\NumbersToTextTests\NumbersToTextTests.csproj", "{ABA84924-DA40-489F-9AF0-E760D224177F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersToTextTests", "NimbersToTextTests\NumbersToTextTests\NumbersToTextTests.csproj", "{ABA84924-DA40-489F-9AF0-E760D224177F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
