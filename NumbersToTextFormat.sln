@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersToTextFormat", "NumbersToTextFormat\NumbersToTextFormat.csproj", "{D71A61F7-AA04-4B59-92A1-B0D9B87AC476}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersToTextTests", "..\NimbersToTextTests\NumbersToTextTests\NumbersToTextTests.csproj", "{ABA84924-DA40-489F-9AF0-E760D224177F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D71A61F7-AA04-4B59-92A1-B0D9B87AC476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D71A61F7-AA04-4B59-92A1-B0D9B87AC476}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D71A61F7-AA04-4B59-92A1-B0D9B87AC476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA84924-DA40-489F-9AF0-E760D224177F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA84924-DA40-489F-9AF0-E760D224177F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA84924-DA40-489F-9AF0-E760D224177F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA84924-DA40-489F-9AF0-E760D224177F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
