@@ -69,10 +69,10 @@
     <Compile Include="ITranslatorApplication.cs" />
     <Compile Include="Translator\DigitTranslator.cs" />
     <Compile Include="Translator\INumbersTextLibrarian.cs" />
-    <Compile Include="UserInterface\INumbersToTextUI.cs" />
+    <Compile Include="UserInterface\INumbersToTextUserInterface.cs" />
     <Compile Include="Translator\RussianNumbersLibrarian.cs" />
     <Compile Include="NumbersToTextApplication.cs" />
-    <Compile Include="UserInterface\NumbersToTextUI.cs" />
+    <Compile Include="UserInterface\NumbersToTextUserInterface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserInterface\TextMessages.cs" />

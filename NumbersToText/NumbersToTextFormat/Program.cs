@@ -3,16 +3,16 @@ using System;
 
 namespace NumbersToTextFormat
 {
-    public class Program
+    internal class Program
     {
         static void Main(string[] args = null)
         {
             INumbersTextToLibrarian librarian;
             ITranslatorApplication translator;
-            INumbersToTextUI userInterface;
+            INumbersToTextUserInterface userInterface;
 
             librarian = new RussianNumbersLibrarian();
-            userInterface = new NumbersToTextUI();
+            userInterface = new NumbersToTextUserInterface();
             translator = new NumbersToTextApplication(librarian, userInterface);
 
             ConfigLogger();

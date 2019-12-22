@@ -1,13 +1,9 @@
 ﻿using NumbersToTextFormat;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NumbersToTextTests
 {
-    class TestUI : INumbersToTextUI
+    internal class TestUI : INumbersToTextUserInterface
     {
         public string UsetInput { get; set; } = "0";
         public string UserOutput { get; set; }

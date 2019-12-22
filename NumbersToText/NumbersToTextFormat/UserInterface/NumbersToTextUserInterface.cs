@@ -3,7 +3,7 @@ using System;
 
 namespace NumbersToTextFormat
 {
-    public class NumbersToTextUI : INumbersToTextUI
+    internal class NumbersToTextUserInterface : INumbersToTextUserInterface
     {
         public string GetUserNumber()
         {

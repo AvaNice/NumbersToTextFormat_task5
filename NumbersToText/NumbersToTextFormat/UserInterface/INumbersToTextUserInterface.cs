@@ -1,6 +1,6 @@
 ﻿namespace NumbersToTextFormat
 {
-    public interface INumbersToTextUI
+    public interface INumbersToTextUserInterface
     {
         string GetUserNumber();
         bool IsOneMore();

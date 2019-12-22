@@ -7,9 +7,9 @@ namespace NumbersToTextFormat
     public class NumbersToTextApplication : ITranslatorApplication
     {
         private readonly DigitTranslator _translator;
-        private readonly INumbersToTextUI _userInterface;
+        private readonly INumbersToTextUserInterface _userInterface;
 
-        public NumbersToTextApplication(INumbersTextToLibrarian librarian, INumbersToTextUI userInterface)
+        public NumbersToTextApplication(INumbersTextToLibrarian librarian, INumbersToTextUserInterface userInterface)
         {
             _translator = new DigitTranslator(librarian);
             _userInterface = userInterface;

@@ -1,6 +1,6 @@
 ﻿namespace NumbersToTextFormat
 {
-    public static class TextMessages
+    internal static class TextMessages
     {
         public const string ENTER_NUMBER = "Число = ";
         public const string INCORRECT_INPUT = "Используйте только цифры для ввода.";
