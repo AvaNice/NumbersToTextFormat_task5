@@ -9,7 +9,7 @@ namespace NumbersToTextTests
 {
     class TestUI : INumbersToTextUI
     {
-        public string UsetInput { get; set; }
+        public string UsetInput { get; set; } = "0";
         public string UserOutput { get; set; }
 
         public string GetUserNumber()

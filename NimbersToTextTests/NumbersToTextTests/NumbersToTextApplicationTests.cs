@@ -17,6 +17,7 @@ namespace NumbersToTextTests
         [InlineData("0", "ноль")]
         [InlineData("-109820", "минус сто девять тысяч восемьсот двадцать")]
         [InlineData("-10", "минус десять")]
+        [InlineData("10", "десять")]
         public void TranslateNumderToRussianTest(string userInput, string expected)
         {
             string actual;
