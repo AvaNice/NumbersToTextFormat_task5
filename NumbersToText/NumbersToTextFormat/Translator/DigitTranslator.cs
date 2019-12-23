@@ -205,7 +205,6 @@ namespace NumbersToTextFormat
         {
             if (number == 0)
             {
-
                 return true;
             }
 
@@ -216,7 +215,6 @@ namespace NumbersToTextFormat
         {
             if (number < 0)
             {
-
                 return true;
             }
 

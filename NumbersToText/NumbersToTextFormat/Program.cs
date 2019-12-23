@@ -7,13 +7,10 @@ namespace NumbersToTextFormat
     {
         static void Main(string[] args = null)
         {
-            INumbersTextToLibrarian librarian;
-            ITranslatorApplication translator;
-            INumbersToTextUserInterface userInterface;
-
-            librarian = new RussianNumbersLibrarian();
-            userInterface = new NumbersToTextUserInterface();
-            translator = new NumbersToTextApplication(librarian, userInterface);
+            INumbersTextToLibrarian librarian = new RussianNumbersLibrarian();
+            INumbersToTextUserInterface userInterface = new NumbersToTextUserInterface();
+            ITranslatorApplication translator 
+                = new NumbersToTextApplication(librarian, userInterface);
 
             ConfigLogger();
 
@@ -29,6 +26,10 @@ namespace NumbersToTextFormat
                 {
                     userInterface.Show(TextMessages.CANT_READ_ARGS);
                 }
+            }
+            else
+            {
+                userInterface.Show(TextMessages.HELP);
             }
 
             do

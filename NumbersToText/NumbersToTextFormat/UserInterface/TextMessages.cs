@@ -14,5 +14,6 @@
         public const string NO_TRANS = "net";
         public const string CANT_READ_ARGS = "Не удалось распознать параметр";
         public const string CANT_READ_MODE = "Введите Да/Нет";
+        public const string HELP = "Для перевода числа в пропись введите число.";
     }
 }
