@@ -124,6 +124,7 @@ namespace NumbersToTextFormat
 
             if (full > COUNT_SINGLE_WORD)
             {
+                _isZeroHighRank = false;
                 result = $"{_lib.Tens[first]}{_lib.Spliter}{TransformSingleWord(second, splitedNumber)}";
             }
             else
